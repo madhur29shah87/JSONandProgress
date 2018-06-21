@@ -5,7 +5,7 @@ Read JSON file using jQuery create rows and progress bar using bootstrap
 ```
 npm install -g http-server
 ```
-Execute command in folder 
+Execute below command in folder 
 ```
 http-server
 ```
