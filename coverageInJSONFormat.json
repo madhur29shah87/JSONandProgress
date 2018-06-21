@@ -1,0 +1,289 @@
+{
+  "coveredLines": 167,
+  "lineCoverage": 0.77674418604651163,
+  "targets": [
+    {
+      "coveredLines": 38,
+      "lineCoverage": 1,
+      "files": [
+        {
+          "coveredLines": 38,
+          "lineCoverage": 1,
+          "path": "\/Users\/admin\/builds\/a1d80349\/0\/worldofmobileapp\/BullsEye\/BullsEyeMockTests\/BullsEyeMockTests.swift",
+          "functions": [
+            {
+              "coveredLines": 5,
+              "lineCoverage": 1,
+              "lineNumber": 28,
+              "executionCount": 1,
+              "name": "BullsEyeMockTests.MockUserDefaults.set(Swift.Int, forKey: Swift.String) -> ()",
+              "executableLines": 5
+            },
+            {
+              "coveredLines": 9,
+              "lineCoverage": 1,
+              "lineNumber": 39,
+              "executionCount": 2,
+              "name": "BullsEyeMockTests.BullsEyeMockTests.setUp() -> ()",
+              "executableLines": 9
+            },
+            {
+              "coveredLines": 5,
+              "lineCoverage": 1,
+              "lineNumber": 49,
+              "executionCount": 2,
+              "name": "BullsEyeMockTests.BullsEyeMockTests.tearDown() -> ()",
+              "executableLines": 5
+            },
+            {
+              "coveredLines": 13,
+              "lineCoverage": 1,
+              "lineNumber": 56,
+              "executionCount": 1,
+              "name": "BullsEyeMockTests.BullsEyeMockTests.testGameStyleCanBeChanged() -> ()",
+              "executableLines": 13
+            },
+            {
+              "coveredLines": 6,
+              "lineCoverage": 1,
+              "lineNumber": 70,
+              "executionCount": 1,
+              "name": "BullsEyeMockTests.BullsEyeMockTests.testPerformanceExample() -> ()",
+              "executableLines": 6
+            }
+          ],
+          "name": "BullsEyeMockTests.swift",
+          "executableLines": 38
+        }
+      ],
+      "name": "BullsEyeMockTests.xctest",
+      "executableLines": 38,
+      "buildProductPath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/BullsEye-frbeduhnhltduugbbffwgvmqdyaz\/Build\/Products\/Debug-iphonesimulator\/BullsEye.app\/PlugIns\/BullsEyeMockTests.xctest\/BullsEyeMockTests"
+    },
+    {
+      "coveredLines": 64,
+      "lineCoverage": 0.60377358490566035,
+      "files": [
+        {
+          "coveredLines": 4,
+          "lineCoverage": 1,
+          "path": "\/Users\/admin\/builds\/a1d80349\/0\/worldofmobileapp\/BullsEye\/BullsEye\/AppDelegate.swift",
+          "functions": [
+            {
+              "coveredLines": 4,
+              "lineCoverage": 1,
+              "lineNumber": 30,
+              "executionCount": 3,
+              "name": "BullsEye.AppDelegate.application(__ObjC.UIApplication, didFinishLaunchingWithOptions: Swift.Optional<Swift.Dictionary<__C.UIApplicationLaunchOptionsKey, Any>>) -> Swift.Bool",
+              "executableLines": 4
+            }
+          ],
+          "name": "AppDelegate.swift",
+          "executableLines": 4
+        },
+        {
+          "coveredLines": 21,
+          "lineCoverage": 1,
+          "path": "\/Users\/admin\/builds\/a1d80349\/0\/worldofmobileapp\/BullsEye\/BullsEye\/BullsEyeGame.swift",
+          "functions": [
+            {
+              "coveredLines": 3,
+              "lineCoverage": 1,
+              "lineNumber": 32,
+              "executionCount": 7,
+              "name": "BullsEye.BullsEyeGame.__allocating_init() -> BullsEye.BullsEyeGame",
+              "executableLines": 3
+            },
+            {
+              "coveredLines": 5,
+              "lineCoverage": 1,
+              "lineNumber": 36,
+              "executionCount": 9,
+              "name": "BullsEye.BullsEyeGame.startNewGame() -> ()",
+              "executableLines": 5
+            },
+            {
+              "coveredLines": 5,
+              "lineCoverage": 1,
+              "lineNumber": 42,
+              "executionCount": 9,
+              "name": "BullsEye.BullsEyeGame.startNewRound() -> ()",
+              "executableLines": 5
+            },
+            {
+              "coveredLines": 8,
+              "lineCoverage": 1,
+              "lineNumber": 48,
+              "executionCount": 2,
+              "name": "BullsEye.BullsEyeGame.check(guess: Swift.Int) -> Swift.Int",
+              "executableLines": 8
+            }
+          ],
+          "name": "BullsEyeGame.swift",
+          "executableLines": 21
+        },
+        {
+          "coveredLines": 39,
+          "lineCoverage": 0.48148148148148145,
+          "path": "\/Users\/admin\/builds\/a1d80349\/0\/worldofmobileapp\/BullsEye\/BullsEye\/ViewController.swift",
+          "functions": [
+            {
+              "coveredLines": 12,
+              "lineCoverage": 0.8571428571428571,
+              "lineNumber": 40,
+              "executionCount": 3,
+              "name": "BullsEye.ViewController.viewDidLoad() -> ()",
+              "executableLines": 14
+            },
+            {
+              "coveredLines": 7,
+              "lineCoverage": 1,
+              "lineNumber": 55,
+              "executionCount": 2,
+              "name": "BullsEye.ViewController.chooseGameStyle(__ObjC.UISegmentedControl) -> ()",
+              "executableLines": 7
+            },
+            {
+              "coveredLines": 20,
+              "lineCoverage": 1,
+              "lineNumber": 63,
+              "executionCount": 4,
+              "name": "BullsEye.ViewController.updateView() -> ()",
+              "executableLines": 20
+            },
+            {
+              "coveredLines": 0,
+              "lineCoverage": 0,
+              "lineNumber": 84,
+              "executionCount": 0,
+              "name": "BullsEye.ViewController.checkGuess(Any) -> ()",
+              "executableLines": 15
+            },
+            {
+              "coveredLines": 0,
+              "lineCoverage": 0,
+              "lineNumber": 100,
+              "executionCount": 0,
+              "name": "BullsEye.ViewController.showScoreAlert(difference: Swift.Int) -> ()",
+              "executableLines": 13
+            },
+            {
+              "coveredLines": 0,
+              "lineCoverage": 0,
+              "lineNumber": 114,
+              "executionCount": 0,
+              "name": "BullsEye.ViewController.showNaNAlert() -> ()",
+              "executableLines": 8
+            },
+            {
+              "coveredLines": 0,
+              "lineCoverage": 0,
+              "lineNumber": 123,
+              "executionCount": 0,
+              "name": "BullsEye.ViewController.startOver(Any) -> ()",
+              "executableLines": 4
+            }
+          ],
+          "name": "ViewController.swift",
+          "executableLines": 81
+        }
+      ],
+      "name": "BullsEye.app",
+      "executableLines": 106,
+      "buildProductPath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/BullsEye-frbeduhnhltduugbbffwgvmqdyaz\/Build\/Products\/Debug-iphonesimulator\/BullsEye.app\/BullsEye"
+    },
+    {
+      "coveredLines": 36,
+      "lineCoverage": 0.8571428571428571,
+      "files": [
+        {
+          "coveredLines": 36,
+          "lineCoverage": 0.8571428571428571,
+          "path": "\/Users\/admin\/builds\/a1d80349\/0\/worldofmobileapp\/BullsEye\/BullsEyeUITests\/BullsEyeUITests.swift",
+          "functions": [
+            {
+              "coveredLines": 14,
+              "lineCoverage": 1,
+              "lineNumber": 28,
+              "executionCount": 1,
+              "name": "BullsEyeUITests.BullsEyeUITests.setUp() -> ()",
+              "executableLines": 14
+            },
+            {
+              "coveredLines": 4,
+              "lineCoverage": 1,
+              "lineNumber": 43,
+              "executionCount": 1,
+              "name": "BullsEyeUITests.BullsEyeUITests.tearDown() -> ()",
+              "executableLines": 4
+            },
+            {
+              "coveredLines": 18,
+              "lineCoverage": 0.75,
+              "lineNumber": 48,
+              "executionCount": 1,
+              "name": "BullsEyeUITests.BullsEyeUITests.testGameStyleSwitch() -> ()",
+              "executableLines": 24
+            }
+          ],
+          "name": "BullsEyeUITests.swift",
+          "executableLines": 42
+        }
+      ],
+      "name": "BullsEyeUITests.xctest",
+      "executableLines": 42,
+      "buildProductPath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/BullsEye-frbeduhnhltduugbbffwgvmqdyaz\/Build\/Products\/Debug-iphonesimulator\/BullsEyeUITests-Runner.app\/PlugIns\/BullsEyeUITests.xctest\/BullsEyeUITests"
+    },
+    {
+      "coveredLines": 29,
+      "lineCoverage": 1,
+      "files": [
+        {
+          "coveredLines": 29,
+          "lineCoverage": 1,
+          "path": "\/Users\/admin\/builds\/a1d80349\/0\/worldofmobileapp\/BullsEye\/BullsEyeTests\/BullsEyeTests.swift",
+          "functions": [
+            {
+              "coveredLines": 5,
+              "lineCoverage": 1,
+              "lineNumber": 29,
+              "executionCount": 2,
+              "name": "BullsEyeTests.BullsEyeTests.setUp() -> ()",
+              "executableLines": 5
+            },
+            {
+              "coveredLines": 4,
+              "lineCoverage": 1,
+              "lineNumber": 35,
+              "executionCount": 2,
+              "name": "BullsEyeTests.BullsEyeTests.tearDown() -> ()",
+              "executableLines": 4
+            },
+            {
+              "coveredLines": 10,
+              "lineCoverage": 1,
+              "lineNumber": 41,
+              "executionCount": 1,
+              "name": "BullsEyeTests.BullsEyeTests.testScoreIsComputedWhenGuessGTTarget() -> ()",
+              "executableLines": 10
+            },
+            {
+              "coveredLines": 10,
+              "lineCoverage": 1,
+              "lineNumber": 52,
+              "executionCount": 1,
+              "name": "BullsEyeTests.BullsEyeTests.testScoreIsComputedWhenGuessLTTarget() -> ()",
+              "executableLines": 10
+            }
+          ],
+          "name": "BullsEyeTests.swift",
+          "executableLines": 29
+        }
+      ],
+      "name": "BullsEyeTests.xctest",
+      "executableLines": 29,
+      "buildProductPath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/BullsEye-frbeduhnhltduugbbffwgvmqdyaz\/Build\/Products\/Debug-iphonesimulator\/BullsEye.app\/PlugIns\/BullsEyeTests.xctest\/BullsEyeTests"
+    }
+  ],
+  "executableLines": 215
+}

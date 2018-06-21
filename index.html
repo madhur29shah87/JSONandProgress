@@ -1,0 +1,50 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+    <body>
+       
+
+    </body>
+    <script type="text/javascript">
+
+     $.getJSON( "coverageInJSONFormat.json", function( data ) {
+        var items = [];
+        debugger;
+        $.each( data.targets , function( i, item ) {
+            // debugger;
+            var completeRow = createRow(item, '#c6c8ca', '');
+            items.push( completeRow );
+            $.each( item.files , function( i, item ) {
+                completeRow = createRow(item, '#BFE5EB', '40px');
+                items.push( completeRow );
+                $.each( item.functions , function( i, item ) {
+                    completeRow = createRow(item, '#B9DBFD', '60px');
+                    items.push( completeRow );
+                });
+            });
+        });
+
+        function createRow(item, color, leftPadding){
+            var rowDiv = "<div class='row'>";
+            var col1Div = "<div class='col-md-8' style='background-color:"+color+"; padding-left:"+leftPadding+"'>" ;
+            var col2Div = "<div class='col-md-4'>";
+            var progDiv = "<div class='progress'>"
+            var covInPercentage = Number(Math.round(item.lineCoverage*100+'e2')+'e-2');
+            var actualProgress = "<div class='progress-bar' role='progressbar' aria-valuenow='"+covInPercentage+"' aria-valuemin='0' aria-valuemax='100' style='width:"+covInPercentage+"%'>";
+            var completeRow =  rowDiv + col1Div + item.name + "</div>" + col2Div + progDiv + actualProgress + covInPercentage + "% </div></div></div></div>";
+            return completeRow;
+        }
+        
+        $( "<div/>", {
+            "class": "container",
+            html: items.join( "" )
+        }).appendTo( "body" );
+    });
+    </script>
+
+</html>
